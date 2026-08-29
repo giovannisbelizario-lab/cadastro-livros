@@ -1,7 +1,7 @@
 def titulo(txt):
-    print('=-' * len(txt))
+    print('=' * len(txt))
     print(txt)
-    print('=-' * len(txt))
+    print('=' * len(txt))
     
 def cadastro_livros():
     livros = []
@@ -30,7 +30,7 @@ def procurar_livro(lista):
 
 
 def main():
-    titulo('PROCURANDO LIVROS NA LISTA')
+    titulo('PROCURANDO LIVROS!!')
     lista = cadastro_livros()
     procurar_livro(lista)
 
